@@ -85,7 +85,7 @@ html {
 }
 
 .hero.dark-mode {
-    background-color: #7d008d;
+    background-color: #d008d7;
 }
 
 .hero h2 {
@@ -107,7 +107,7 @@ body.dark-mode h2, body.dark-mode p {
 .btn {
     padding: 15px 30px;
     background-color: #fff;
-    color: #000;
+    color: #d008d7;
     text-decoration: none;
     font-size: 1.5em;
     border-radius: 5px;
@@ -116,7 +116,7 @@ body.dark-mode h2, body.dark-mode p {
 }
 
 .btn:hover {
-    background-color: #333;
+    background-color: #610451;
     color: #fff;
     transform: scale(1.05);
 }
