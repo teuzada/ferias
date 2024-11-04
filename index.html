@@ -1,93 +1,153 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delícias em Pote - Confeitaria</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <title>Sweet Brownie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Delícias em Pote</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#produtos">Nossos Produtos</a></li>
-                <li><a href="#comprar">Como Comprar</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <img src="Background.png" alt="Logo Sweet Brownie">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                </ul>
+            </nav>
+            <button id="dark-mode-toggle" class="btn-dark-mode">Dark Mode</button>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Bem-vindo à Delícias em Pote!</h2>
-        <p>Aqui, transformamos o prazer de comer bombons em uma experiência única. Nossos potes recheados com bombons variados são perfeitos para qualquer ocasião. Sinta o sabor da felicidade!</p>
-        <a href="#produtos">Veja Nossos Produtos</a>
+    <section class="hero" id="home">
+        <h2>Bem Vindo ao Sweet Brownie</h2>
+        <p>Os melhores brownies da cidade, feitos com amor e qualidade!</p>
+        <a href="#produtos" class="btn">Veja nossos produtos</a>
     </section>
 
-    <section id="sobre">
-        <h2>Quem Somos</h2>
-        <p>A Delícias em Pote nasceu da paixão por doces e pela vontade de compartilhar momentos especiais com você. Nossa confeitaria é dedicada a criar bombons de alta qualidade, sempre frescos e feitos com ingredientes selecionados.</p>
+    <section class="produtos" id="produtos">
+        <h2>Produtos</h2>
+        <div class="grid-produtos">
+            <a href="#" class="produto">
+                <div class="produto">
+                    <h3>BROWNIE SIMPLES</h3>
+                    <p class="preco">R$ 7,00</p>
+                    <p>Um delicioso brownie tradicional, perfeito para qualquer momento.</p>
+                </div>
+            </a>
+            <a href="#" class="produto">
+                <div class="produto">
+                    <h3>BROWNIE RECHEADO COM NINHO</h3>
+                    <p class="preco">R$ 10,00</p>
+                    <p>Brownie recheado com o irresistível creme de leite em pó Ninho.</p>
+                </div>
+            </a>
+        </div>
     </section>
 
-    <section id="produtos">
-        <h2>Bombons em Pote</h2>
-        <ul>
-            <li><strong>Pote Clássico:</strong> Bombons sortidos (Chocolate ao leite, branco, amargo)</li>
-            <li><strong>Pote Gourmet:</strong> Bombons com recheios especiais (Nutella, Doce de Leite, Maracujá)</li>
-            <li><strong>Pote Vegano:</strong> Bombons sem lactose e sem glúten</li>
-            <li><strong>Pote Festivo:</strong> Edições limitadas para festas e datas comemorativas</li>
-        </ul>
-        <a href="#comprar">Peça Agora</a>
-    </section>
-
-    <section id="comprar">
-        <h2>Faça Seu Pedido</h2>
-        <p>Para comprar nossos bombons em pote, siga os passos abaixo:</p>
-        <ol>
-            <li>Escolha o seu pote favorito.</li>
-            <li>Adicione ao carrinho.</li>
-            <li>Finalize a compra com suas informações de entrega.</li>
-            <li>Aguarde a nossa deliciosa surpresa na sua porta!</li>
-        </ol>
-        <h3>Informações de Entrega</h3>
-        <p>Entregas em toda a cidade. Prazo de entrega: até 48 horas após a confirmação do pagamento.</p>
-    </section>
-
-    <section id="galeria">
-        <h2>Nossas Delícias</h2>
-        <p>Veja as nossas criações!</p>
-        <img src="imagem1.jpg" alt="Pote de Bombons" />
-        <img src="imagem2.jpg" alt="Bombons Gourmet" />
-        <!-- Adicione mais imagens conforme necessário -->
-    </section>
-
-    <section id="contato">
-        <h2>Fale Conosco</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-        <h3>Informações de Contato</h3>
-        <p>Telefone: (XX) XXXXX-XXXX</p>
-        <p>E-mail: contato@deliciasempote.com.br</p>
-        <p>Endereço: Rua das Confeitarias, 123 - Cidade</p>
+    <section class="sobre" id="sobre">
+        <div class="sobre-container">
+            <h2>Sobre Nós</h2>
+            <p>Na <strong>Sweet Brownie</strong>, somos apaixonados por criar momentos doces para você! Com ingredientes de alta qualidade e muito amor, nossos brownies são feitos para deixar seu dia mais especial. Nossa missão é oferecer produtos frescos e saborosos que agradem todos os paladares. Venha nos conhecer e se deliciar com o melhor brownie da cidade!</p>
+            <div class="social-buttons">
+                <a href="https://wa.me/554196215055" target="_blank" class="btn-whatsapp">Entre em Contato no WhatsApp</a>
+                <a href="https://www.instagram.com/sweetbrownies_s?igsh=MTIwY284c3lxMXl0Zw==" target="_blank" class="btn-instagram">Siga-nos no Instagram</a>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>Política de Privacidade | Termos de Uso</p>
-        <p>&copy; 2024 Delícias em Pote</p>
-        <div>
-            <a href="https://instagram.com">Instagram</a>
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://tiktok.com">TikTok</a>
-        </div>
+        <p>Sweet Brownie &copy; 2024. Todos os direitos reservados.</p>
     </footer>
+
+    <div id="qrModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="Pix.png" alt="QR Code Pix" class="qr-image">
+            <button id="closeModalBtn" class="btn">Voltar para a Página Inicial</button>
+        </div>
+    </div>
+
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+        const header = document.querySelector('header');
+        const produtosSection = document.querySelector('.produtos');
+        const footer = document.querySelector('footer');
+        const produtos = document.querySelectorAll('.produto');
+        const links = document.querySelectorAll('nav ul li a');
+        const sobreSection = document.querySelector('.sobre');
+        const sobreContainer = document.querySelector('.sobre-container');
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            header.classList.toggle('dark-mode');
+            produtosSection.classList.toggle('dark-mode');
+            footer.classList.toggle('dark-mode');
+            toggleButton.classList.toggle('dark-mode');
+
+            produtos.forEach(produto => {
+                produto.classList.toggle('dark-mode');
+            });
+
+            links.forEach(link => {
+                link.classList.toggle('dark-mode');
+            });
+
+            sobreSection.classList.toggle('dark-mode');
+            sobreContainer.classList.toggle('dark-mode');
+
+            if (body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Light Mode';
+            } else {
+                toggleButton.textContent = 'Dark Mode';
+            }
+        });
+
+        const modal = document.getElementById('qrModal');
+        const span = document.querySelector('.close');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+
+        produtos.forEach(produto => {
+            produto.addEventListener('click', (e) => {
+                e.preventDefault();
+                modal.style.display = "block";
+            });
+        });
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        closeModalBtn.onclick = function() {
+            modal.style.display = "none";
+            window.location.href = "#home";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        const navLinks = document.querySelectorAll('nav ul li a');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();  
+
+                const targetSection = document.querySelector(link.getAttribute('href'));
+
+                window.scrollTo({
+                    top: targetSection.offsetTop - 100,  
+                    behavior: 'smooth'  
+                });
+            });
+        });
+    </script>
 </body>
 </html>
