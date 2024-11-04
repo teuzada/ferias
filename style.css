@@ -29,7 +29,7 @@ header {
 }
 
 header.dark-mode {
-    background-color: #8b006d;
+    background-color: #9400d3;
 }
 
 header .container {
@@ -78,7 +78,7 @@ html {
 }
 
 .hero {
-    background: linear-gradient(to top, ##d008d7, #ffcbdb); 
+    background: linear-gradient(to top, #d008d7, #ffcbdb); 
     padding: 150px 20px;
     text-align: center;
     color: #fff;
