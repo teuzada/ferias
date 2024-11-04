@@ -58,7 +58,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-size: 1.3em;
     font-weight: 600;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -85,7 +85,7 @@ html {
 }
 
 .hero.dark-mode {
-    background-color: #3c3c3c;
+    background-color: #7d008d;
 }
 
 .hero h2 {
